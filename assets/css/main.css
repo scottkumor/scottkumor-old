@@ -16,6 +16,7 @@ html {
   padding: 1%;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .navButton {
@@ -83,7 +84,7 @@ html {
 }
 
 .portfolioImage{
-  
+  border: 1px;
 }
 
 .portfolioImageLabel{
