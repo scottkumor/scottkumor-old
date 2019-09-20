@@ -1,6 +1,6 @@
 /* html css */
 html {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Grenze', serif;
   font-size: x-large;
   }
   
@@ -38,6 +38,17 @@ html {
   transform: scale(1);
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
+}
+
+.navButton:focus {
+  background-color: rgb(0, 255, 255);
+  color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(.95);
+  -webkit-transform: scale(.95);
+  -moz-transform: scale(.95);
 }
 
 .nav {
@@ -84,24 +95,30 @@ html {
 }
 
 .portfolioImage{
-  border: 1px;
+  max-height: 450px;
+  max-width: 300px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px; */
 }
 
 .portfolioImageLabel{
   color: white;
-  background-color: cyan;
-  position: absolute;
-  left: 0;
+  background-color: rgb(0, 92, 92);
+  border: 3px solid rgb(46, 53, 53);
   bottom: 20px;
+  position: absolute;
   font-size: 30px;
-  width: 100%;
+  justify-content: center;
   text-align: center;
+  width: 100%;
 }
 
 .portfolioImageWrapper {
   position: relative;
   display: inline-block;
-}
+  }
 
 /* body css */
 .body {
@@ -131,7 +148,7 @@ html {
 .sectionContent {
   background-color: #ffffff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  width: 99%;
+  width: 100%;
 }
 
 .sectionLink {
