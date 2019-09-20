@@ -1,7 +1,7 @@
 /* html css */
 html {
   font-family: 'Grenze', serif;
-  font-size: x-large;
+  font-size: 75%;
   }
   
 /* nav css */
@@ -55,6 +55,8 @@ html {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
+  font-size: xx-large;
+  flex-grow: 1;
 }
 
 .pageHeader {
@@ -92,15 +94,13 @@ html {
 .portfolioGrid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
 }
 
 .portfolioImage{
   max-height: 450px;
   max-width: 300px;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px; */
 }
 
 .portfolioImageLabel{
@@ -118,6 +118,7 @@ html {
 .portfolioImageWrapper {
   position: relative;
   display: inline-block;
+  margin: 10px;
   }
 
 /* body css */
@@ -180,6 +181,7 @@ html {
   }
 
 .disclaimer {
-  font-size: xx-small;
+  font-size: x-small;
   text-align: center;
+  padding-top: .5%
 }
