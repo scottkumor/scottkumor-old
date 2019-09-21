@@ -1,16 +1,26 @@
-/* html css */
+
+/* 
+Developer's Note: I will be switching to Atomic CSS after Homework One. 
+I meant to do so earlier, but I got too deep and it would have cost me too much time. 
+Please excuse my smelly code.
+*/
+
+
+
+/* global defaults */
 html {
-  font-family: 'Inknut Antiqua', serif;
+  font-family: "Inknut Antiqua", serif;
   font-size: 75%;
-  }
-  
-/* nav css */
+  line-height: 1.5;
+}
+
+/* header and navigation */
 .header {
   align-items: center;
-  background-color: rgb(153, 182, 182);
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7) 100%);
+  /* background-color:white; */
   color: white;
   display: flex;
-  /* font-size: 60px; */
   justify-content: space-between;
   top: 0;
   padding: 1%;
@@ -20,9 +30,8 @@ html {
 }
 
 .navButton {
-  background-color: rgb(0, 109, 100) ;
-  border-radius: 6px;
-  color: rgb(197, 255, 255);
+  border-radius: 0 20px 0 10px;  
+  color: rgb(0, 143, 143);
   display: flex;
   margin-right: 5%;
   text-decoration: none;
@@ -41,14 +50,14 @@ html {
 }
 
 .navButton:focus {
-  background-color: rgb(0, 255, 255);
+  background-color: rgba(1, 158, 158, 0.5);
   color: white;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  transform: scale(.95);
-  -webkit-transform: scale(.95);
-  -moz-transform: scale(.95);
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
 }
 
 .nav {
@@ -66,11 +75,9 @@ html {
   padding: 5px;
 }
 
-/* image styles */
+/* images */
 .aboutMeImage {
-  background: linear-gradient(#ffffff, rgb(197, 255, 255) 100%);
-  border-bottom: rgb(0, 92, 92) solid 20px;
-  border-right: rgb(0, 92, 92) solid 10px;
+  background: linear-gradient(#ffffff,rgb(0, 92, 92) 100%);
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 0% 2% 0% 4%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -86,37 +93,43 @@ html {
   width: 40%;
 }
 
-.portfolioGrid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-around;
-}
-
-.portfolioImage{
+.portfolioImage {
   max-height: 450px;
-  max-width: 300px;
+  max-width: 450px;
+  min-height: 450px;
+  min-width: 450px;
 }
 
-.portfolioImageLabel{
+.portfolioImageLabel {
   color: white;
-  background-color: rgb(0, 92, 92);
-  border: 3px solid rgb(46, 53, 53);
-  bottom: 20px;
+  background-color: rgb(0, 92, 92); 
+  bottom: 10%;
   position: absolute;
-  font-size: 30px;
+  font-size: 20px ;
   justify-content: center;
   text-align: center;
+  padding: 2%;
   width: 100%;
 }
 
 .portfolioImageWrapper {
   position: relative;
   display: inline-block;
-  margin: 10px;
-  }
+  margin: 15px;
+}
 
-/* body css */
+.portfolioImage:hover {
+  opacity: 0.5;
+  border: 20px solid rgb(0, 92, 92);
+}
+
+.sectionImageLink{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* content, links, and layout */
 .body {
   background: linear-gradient(#ffffff, rgb(197, 255, 255) 100%);
   background-repeat: no-repeat;
@@ -125,13 +138,21 @@ html {
   flex-direction: column;
   flex-grow: 1;
   min-height: 100vh;
-  }
+}
 
-  .contactSectionParagraph {
-    font-size: 200%;
-    padding: 2%;
-    text-indent: 5%;
-  }
+.contactSectionParagraph {
+  font-size: 200%;
+  padding: 2%;
+  text-indent: 5%;
+}
+
+.portfolioGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
 
 .sectionMain {
   display: flex;
@@ -144,20 +165,25 @@ html {
 .sectionContent {
   background-color: #ffffff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  height: 100%;
   width: 100%;
+
 }
 
 .sectionLink {
   color: rgb(51, 51, 51);
-  }
+}
 
 .sectionLink:hover {
   background-color: rgb(0, 143, 143);
   color: white;
   text-decoration: none;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(.50);
+  -webkit-transform: scale(.50);
+  -moz-transform: scale(.50);
 }
 
 .sectionParagraph {
@@ -173,10 +199,10 @@ html {
   text-align: center;
   width: 100%;
   bottom: 0;
-  }
+}
 
 .disclaimer {
   font-size: x-small;
   text-align: center;
-  padding-top: .5%
+  padding-top: 0.5%;
 }
