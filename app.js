@@ -73,7 +73,7 @@ $("#portBtn").on("click", function () {
       <div
         class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-2 p-m s-hv"
       >
-        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
+        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/Day-Planner/">
           <div class="c-db ta-c">Day Planner</div>
           <img class="i-fl mt-l" src="./assets/images/soon3.jpg" />
         </a>
@@ -81,12 +81,18 @@ $("#portBtn").on("click", function () {
       <div
         class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-3 p-m s-hv"
       >
-        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
+        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/Weather-Dashboard/">
           <div class="c-db ta-c">Weather Dashboard</div>
           <img class="i-fl mt-l" src="./assets/images/soon4.jpg" />
         </a>
       </div>
-      <div
+      <div class="m-s ta-c ts-i">More Projects coming soon.</div>
+      </div>`
+    )
+});
+
+// for the later cards
+/* <div
         class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-4 p-m s-hv"
       >
         <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
@@ -100,10 +106,7 @@ $("#portBtn").on("click", function () {
         <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
           <div class="c-db ta-c">Note Taker</div>
           <img class="i-fl mt-l" src="./assets/images/soon.jpg" />
-        </a>
-      </div>`
-    )
-});
+        </a> */
 });
 
 $("#contactBtn").on("click", function () {
