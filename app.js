@@ -11,6 +11,7 @@ $(document).ready(function () {
       $('#contentWrapper').attr('style', "display:block");
       $('#contentWrapper').html(`
     <div class="d-g-a"> <!--grid wrapper-->
+    
         <div class="gbx-a-2 p-m t-i">
           I'm a Web Developer based in the Greater Chicago area. Currently I am
           looking for positions working on the frint end - HTML, CSS, JavaScript,
@@ -48,6 +49,9 @@ $(document).ready(function () {
     $('#contentWrapper').slideUp('slow', function () {
       $('#contentWrapper').attr('style', "display:block");
       $('#contentWrapper').html(`
+      
+      <div class="m-s ta-c fz-j ts-i">Solo Projects</div>
+
       <div
       class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-0 p-m s-hv">
       <!--grid box wrapper-->
@@ -83,62 +87,53 @@ $(document).ready(function () {
     >
       <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/Weather-Dashboard/">
         <div class="c-db ta-c">Weather Dashboard</div>
-        <img class="i-fl mt-l" src="./assets/images/soon4.jpg" />
+        <img class="i-fl mt-l" src="./assets/images/152-367x267.jpg" />
       </a>
-    </div>
-    
-    </div>
+    </div>    
     <div
       class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-4 p-m s-hv"
     >
       <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/Dev-Profile-Generator/">
         <div class="c-db ta-c">Profile Generator</div>
-        <img class="i-fl mt-l" src="./assets/images/soon2.jpg" />
+        <img class="i-fl mt-l" src="./assets/images/331-3648x2432.jpg" />
       </a>
     
     <div
       class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
       <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/note-taker/">
         <div class="c-db ta-c">Note Taker</div>
-        <img class="i-fl mt-l" src="./assets/images/soon.jpg" />
+        <img class="i-fl mt-l" src="./assets/images/4-5616x3744.jpg" />
       </a>
     </div>  
-    <div
-      class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
-      <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
-        <div class="c-db ta-c"></div>
-        <img class="i-fl mt-l" src="./assets/images/soon.jpg" />
-      </a>
-    </div>
   <div
     class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
     <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://da-burger-smk.herokuapp.com/">
       <div class="c-db ta-c">Database CLI with "Burgers"</div>
-      <img class="i-fl mt-l" src="./assets/images/soon.jpg"/>
+      <img class="i-fl mt-l" src="./assets/images/soon4.jpg"/>
     </a>
   </div>
   <div
     class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
     <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://hot-restaurant-scottkumor.herokuapp.com/">
       <div class="c-db ta-c">Restaurant Reservations</div>
-      <img class="i-fl mt-l" src="./assets/images/soon.jpg"/>
+      <img class="i-fl mt-l" src="./assets/images/437-367x267.jpg"/>
     </a>
   </div>
   <div
     class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
     <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://star-wars-scottkumor.herokuapp.com/">
       <div class="c-db ta-c">Create Your Own Star Wars Character</div>
-      <img class="i-fl mt-l" src="./assets/images/soon.jpg"/>
+      <img class="i-fl mt-l" src=""/>
     </a>
   </div>
-  
-    <div class="m-s ta-c ts-i">Collaborations</div>
+
+    <div class="m-s ta-c fz-j ts-i">Collaborations</div>
         
     <div
       class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
       <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://iedson.github.io/spotlight/">
         <div class="c-db ta-c">Spotlight</div>
-        <img class="i-fl mt-l" src="./assets/images/soon.jpg" />
+        <img class="i-fl mt-l" src="./assets/images/537-2291x3450.jpg" />
       </a>
     </div>    
     
