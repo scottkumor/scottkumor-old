@@ -1,15 +1,15 @@
 $(document).ready(function () {
 
 
- $("#aboutBtn").on("click", function () {
+  $("#aboutBtn").on("click", function () {
     $(this).text('Home');
     $(this).on("click", function () {
-        location.reload();
+      location.reload();
     });
 
-    $('#contentWrapper').slideUp('slow', function(){
-        $('#contentWrapper').attr('style', "display:block");
-    $('#contentWrapper').html(`
+    $('#contentWrapper').slideUp('slow', function () {
+      $('#contentWrapper').attr('style', "display:block");
+      $('#contentWrapper').html(`
     <div class="d-g-a"> <!--grid wrapper-->
         <div class="gbx-a-2 p-m t-i">
           I'm a Web Developer based in the Greater Chicago area. Currently I am
@@ -39,15 +39,15 @@ $(document).ready(function () {
         </div>
         </div>`);
     });
-});
+  });
 
 
 
 
-$("#portBtn").on("click", function () {
-    $('#contentWrapper').slideUp('slow', function(){
-        $('#contentWrapper').attr('style', "display:block");
-    $('#contentWrapper').html(`
+  $("#portBtn").on("click", function () {
+    $('#contentWrapper').slideUp('slow', function () {
+      $('#contentWrapper').attr('style', "display:block");
+      $('#contentWrapper').html(`
         <div
         class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-0 p-m s-hv">
         <!--grid box wrapper-->
@@ -86,33 +86,46 @@ $("#portBtn").on("click", function () {
           <img class="i-fl mt-l" src="./assets/images/soon4.jpg" />
         </a>
       </div>
-      <div class="m-s ta-c ts-i">More Projects coming soon.</div>
-      </div>`
-    )
-});
-
-// for the later cards
-/* <div
+      
+      </div>
+      <div
         class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-4 p-m s-hv"
       >
         <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
           <div class="c-db ta-c">Profile Generator</div>
           <img class="i-fl mt-l" src="./assets/images/soon2.jpg" />
         </a>
-      </div>
+      
       <div
-        class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv"
-      >
-        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="">
+        class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
+        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/Dev-Profile-Generator/">
           <div class="c-db ta-c">Note Taker</div>
           <img class="i-fl mt-l" src="./assets/images/soon.jpg" />
-        </a> */
-});
+        </a>
+      </div>  
+      <div
+        class="bg-c-lb-hv bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc gbx-p-5 p-m s-hv">
+        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://scottkumor.github.io/Dev-Profile-Generator/">
+          <div class="c-db ta-c">Note Taker</div>
+          <img class="i-fl mt-l" src="./assets/images/soon.jpg" />
+        </a>
+      </div>  
+        
+        
+        
+        
+        <div class="m-s ta-c ts-i">More Projects coming soon.</div>`
+      )
+    });
 
-$("#contactBtn").on("click", function () {
-    $('#contentWrapper').slideUp('slow', function(){
-        $('#contentWrapper').attr('style', "display:block");
-    $('#contentWrapper').html(`<div class="fz-j"><!--grid wrapper, raise font alittle higher-->
+    // for the later cards
+    /*  */
+  });
+
+  $("#contactBtn").on("click", function () {
+    $('#contentWrapper').slideUp('slow', function () {
+      $('#contentWrapper').attr('style', "display:block");
+      $('#contentWrapper').html(`<div class="fz-j"><!--grid wrapper, raise font alittle higher-->
     <div class="">
       My primary email is
       <a
@@ -123,6 +136,6 @@ $("#contactBtn").on("click", function () {
       days.
     </div>
     `)
-});
-});
+    });
+  });
 }); 
