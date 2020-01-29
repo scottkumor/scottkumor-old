@@ -111,7 +111,15 @@ $(document).ready(function () {
           <img class="i-fl mt-l" src="./assets/images/spotlight.jpg" />
         </a>
       </div>
+      <div class="bg-c-lb-hv m-m bg-c-db-fc c-w-hv c-w-fc t-g-hv t-s-fc p-m s-hv">
+        <a class="ai-c d-f jc-c df-fdc c-w td-n" href="https://sovest.herokuapp.com/">
+          <div class="c-db ta-c">Sovest</div>
+          <img class="i-fl mt-l" src="./assets/images/main-logo.png" />
+        </a>
+      </div>
 
+
+      
       <div class="mt-l ta-c"> My <a class="td-n bg-c-b-fc bg-c-db-hv c-db-fc c-db c-w-hv td-n s-hv t-g-hv t-s-fc" href="https://github.com/scottkumor">
         Github Page</a> is the best place to keep up to date with all my projects and endeavors. Feel free to preruse at your leisure.
       </div>
